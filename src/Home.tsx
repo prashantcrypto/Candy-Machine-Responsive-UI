@@ -112,13 +112,15 @@ const ConnectButton = styled(WalletMultiButton)`
 `;
 
 const NFT = styled(Paper)`
-  min-width: 32em !important;
-  margin: 0 auto;
+  width: 80% !important;
+  max-width: 32rem !important;
   padding: 5px 20px 20px 20px;
   flex: 1 1 auto;
   background-color: var(--card-background-color) !important;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
   margin-top: 6em;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 const Card = styled(Paper)`
